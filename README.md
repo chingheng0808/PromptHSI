@@ -29,7 +29,11 @@ pip install torch==1.12.1+cu102 torchvision==0.13.1+cu102 torchaudio==0.12.1 --e
 cd PromptHSI
 pip install -r requirements.txt
 ```
-#### 2. Data Preparation ####
+#### 2. Pre-trained Model ####
+
+Our pre-trained model is available at <a href="https://drive.google.com/drive/u/1/folders/1-IQCY6ZsVGax7SL85bgE2z-Ef8gOcnL8">the link</a>. Please feel free to download it from there. After downloading the model, please place it under `./ckpt/`.
+
+#### 3. Data Preparation ####
 
 For the clear dataset collected from the <a href="https://aviris.jpl.nasa.gov/dataportal/">AVIRIS Data Portal</a> and the degradation dataset we generated, click <a href="https://drive.google.com/drive/u/1/folders/1-IQCY6ZsVGax7SL85bgE2z-Ef8gOcnL8">here</a> to download.  
 
@@ -79,7 +83,7 @@ The structure of `data` directory should be like
           └── f201007t01p00r14rdn_e_sc01_ort_img_230_deg.npz
 ```
 
-#### 3. Train the model #####
+#### 4. Train the model #####
 Edit the `options.py` file to configure the hyperparameters, then execute the following command: 
 ```
 # train
@@ -88,8 +92,6 @@ python train.py
 # Testing
 python test.py
 ```
-
-Our pre-trained model is under `./ckpt/` already, with the name `BEST-PromptHSI.pth`.
 
 #
 If our work is helpful to your reaearch, please kindly cite our work. Thank!
