@@ -5,7 +5,7 @@
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
-## Introduction
+## Quick Start
 
 The official pytorch implementation of the paper PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation.
 
