@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 #### 2. Pre-trained Model ####
 
-Our pre-trained model is available at <a href="https://drive.google.com/drive/u/1/folders/1-IQCY6ZsVGax7SL85bgE2z-Ef8gOcnL8)">the link</a>. Please feel free to download it from there. After downloading the model, please place it under `./ckpt/`.
+Our pre-trained model is available at <a href="https://drive.google.com/drive/u/1/folders/1-IQCY6ZsVGax7SL85bgE2z-Ef8gOcnL8">the link</a>. Please feel free to download it from there. After downloading the model, please place it under `./ckpt/`.
 
 #### 3. Data Preparation ####
 
