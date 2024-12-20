@@ -32,7 +32,7 @@ parser.add_argument("--long",type=str2bool,required=False,help="is the prompt lo
 parser.add_argument("--intp",type=str2bool,help="is interpolate?", default=True)
 parser.add_argument("--state_dict",type=str,required=False,help="Restored model with relative/absolute path", default=None,)
 # for inference
-parser.add_argument("--ckpt",type=str,required=False,help="Pretrained model with relative/absolute path", default=None,)
+parser.add_argument("--ckpt",type=str,required=False,help="Pretrained model with relative/absolute path", default='ckpt/pretrained_prompthsi.pth',)
 
 options = parser.parse_args()
 
