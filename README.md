@@ -101,11 +101,13 @@ For example, as shown in the examples, we use `--prompt [user prompt]` to inform
 python demo.py --prompt "Thickly Cloudy, Spectral Blurring, Noisy, Band-wise Missing" --target_path "demo/degraded_hsi.npy" --R 24 --G 14 --B 5
 ```
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="figures/fig_hsi_deg.png" alt="Before Restoration" title="Before Restoration" width="200">
-  <span style="margin: 0 10px;">=></span>
-  <img src="figures/fig_restored_rgb.png" alt="After Restoration" title="After Restoration" width="200">
-</div>
+<table>
+  <tr>
+    <td align="left"><img src="figures/fig_hsi_deg.png" alt="Before Restoration" width="224"></td>
+    <td align="center">=></td>
+    <td align="right"><img src="figures/fig_restored_rgb.png" alt="After Restoration" width="224"></td>
+  </tr>
+</table>
 
 #
 If our work is helpful to your reaearch, please kindly cite our work. Thank!
