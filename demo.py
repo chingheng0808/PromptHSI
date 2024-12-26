@@ -26,7 +26,7 @@ def demo_infer(args):
     if "Missing" in t or "missing" in t:
         hsi_deg = interpolate_rows(hsi_deg)
         hsi_deg = interpolate_channels(hsi_deg)
-        plt.imsave('demo/hsi_deg_intp.png', (hsi_deg[:, :, vis_channel] - min_) / (max_ - min_))
+        # plt.imsave('demo/hsi_deg_intp.png', (hsi_deg[:, :, vis_channel] - min_) / (max_ - min_))
     
     model = PromptHSI(
             (224,224),
