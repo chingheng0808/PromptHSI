@@ -103,9 +103,17 @@ python demo.py --prompt "Thickly Cloudy, Spectral Blurring, Noisy, Band-wise Mis
 
 <table>
   <tr>
-    <td align="left"><img src="figures/fig_hsi_deg.png" alt="Before Restoration" width="224"></td>
-    <td align="center">=></td>
-    <td align="right"><img src="figures/fig_restored_rgb.png" alt="After Restoration" width="224"></td>
+    <td align="center">
+      <img src="figures/fig_hsi_deg.png" alt="Before Restoration" width="300"><br>
+      <p>Before Restoration</p>
+    </td>
+    <td align="center">
+      <p style="font-size: 24px;">⇒</p>
+    </td>
+    <td align="center">
+      <img src="figures/fig_restored_rgb.png" alt="After Restoration" width="300"><br>
+      <p>After Restoration</p>
+    </td>
   </tr>
 </table>
 
