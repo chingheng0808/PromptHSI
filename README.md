@@ -93,6 +93,19 @@ python train.py
 python test.py
 ```
 
+#### 5. Demo ####
+Users can customize prompt inputs for degraded images to guide the language model for a certain level of controllable restoration.
+For example, as shown in the examples, we use `--prompt [user prompt]` to inform the model about the desired restoration. Additionally, we use the 24th, 14th, and 5th bands as the RGB mapping for visualization. Finally, the images before and after restoration are displayed.
+```
+# Demo
+python demo.py --prompt "Thickly Cloudy, Spectral Blurring, Noisy, Band-wise Missing" --target_path "demo/degraded_hsi.npy" --R 24 --G 14 --B 5
+```
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="figures/fig_hsi_deg.png" alt="Before Restoration" title="Before Restoration" width="200">
+  <span style="margin: 0 10px;">=></span>
+  <img src="figures/fig_restored_rgb.png" alt="After Restoration" title="After Restoration" width="200">
+</div>
+
 #
 If our work is helpful to your reaearch, please kindly cite our work. Thank!
 #### BibTeX ####
