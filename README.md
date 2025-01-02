@@ -1,5 +1,5 @@
 # PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation (offical)
-[[Paper Link]](https://arxiv.org/abs/2411.15922) [[Supplementary]](https://github.com/chingheng0808/PromptHSI) [[Project Page]](https://github.com/chingheng0808/PromptHSI)
+[[Paper Link]](https://arxiv.org/abs/2411.15922) [[Supplementary]](https://drive.google.com/file/d/1SxrQiqa2sy3QMYLaoiDzeaXxrLfT-fES/view?usp=drive_link) [[Project Page]](https://github.com/chingheng0808/PromptHSI)
 #
 [Chia-Ming Lee](https://ming053l.github.io/), [Ching-Heng Cheng](https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=zh-TW), [Yu-Fan Lin](https://vanlinlin.github.io/), [Yi-Ching Cheng](https://scholar.google.com.tw/citations?hl=zh-TW&view_op=list_works&gmla=AL3_zihMkuibR4LNjVHu_kgdxNASDeqOgpk6WdtWbMqh_9Li88mia0ilpTPOmU8ZVvhaFbhQc9MZxSy8NNWA34MybUc&user=HFImtzUAAAAJ), [Wo-Ting Liao](https://scholar.google.com.tw/citations?hl=zh-TW&user=pD-HgBYAAAAJ&view_op=list_works&gmla=AL3_zigkGgH0LwxSKUG4Q1g4Ivld056uxUH1cjieMkWLSUmQrLMVAHx_Rx4PYSY8dHLOEdwah0TPr6FwDQVhqZhrhIh1yD34Ig3klXaP5Aw), [Chih-Chung Hsu](https://cchsu.info/wordpress/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 #### 2. Pre-trained Model ####
 
-Our pre-trained model is available at <a href="https://drive.google.com/drive/u/1/folders/1-IQCY6ZsVGax7SL85bgE2z-Ef8gOcnL8">the link</a>. Please feel free to download it from there. After downloading the model, please place it under `./ckpt/`.
+Our pre-trained model is available at <a href="https://drive.google.com/file/d/1H7NlKOLFKuN-wqGAizGKokydr4VuJ-Gg/view?usp=sharing">the link</a>. Please feel free to download it from there. After downloading the model, please place it under `./ckpt/`.
 
 #### 3. Data Preparation ####
 
