@@ -35,7 +35,7 @@ Our pre-trained model is available at <a href="https://drive.google.com/file/d/1
 
 #### 3. Data Preparation ####
 
-For the clear dataset collected from the <a href="https://aviris.jpl.nasa.gov/dataportal/">AVIRIS Data Portal</a> and the degradation dataset we generated, click <a href="https://drive.google.com/drive/folders/1O0GDzoPt3AVD4mjXeu3R_lxyuTDEWWW1?usp=sharing">here</a> to download.  
+For the clean dataset, we collected from the <a href="https://github.com/chingheng0808/HyperAVIRIS">HyperAVIRIS</a>, manually removed cloud-contaminated samples, and adjusted the number of examples in each dataset. For the degradation dataset we generate step by step as the description in the [supplementary](https://drive.google.com/file/d/1SxrQiqa2sy3QMYLaoiDzeaXxrLfT-fES/view?usp=drive_link), click <a href="https://drive.google.com/drive/folders/1O0GDzoPt3AVD4mjXeu3R_lxyuTDEWWW1?usp=sharing">here</a> to download the hyperspectral image restoration dataset.  
 
 The dataset includes 900/100/100 hyperspectral images for training, validation, and testing, respectively, and is stored in ".npy" and ".npz" formats for clear and degraded data.
 
