@@ -1,5 +1,5 @@
 # PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation (offical)
-[[Paper Link]](https://arxiv.org/abs/2411.15922) [[Supplementary]](https://drive.google.com/file/d/1SxrQiqa2sy3QMYLaoiDzeaXxrLfT-fES/view?usp=drive_link) [[Project Page]](https://chingheng0808.github.io/prompthsi.github.io/page/static.html)
+[[Paper Link]](https://arxiv.org/abs/2411.15922) [[Supplementary]](https://drive.google.com/file/d/1SxrQiqa2sy3QMYLaoiDzeaXxrLfT-fES/view?usp=drive_link) [[Project Page]](https://chingheng0808.github.io/prompthsiP/static.html)
 #
 [Chia-Ming Lee](https://ming053l.github.io/), [Ching-Heng Cheng](https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=zh-TW), [Yu-Fan Lin](https://vanlinlin.github.io/), [Yi-Ching Cheng](https://scholar.google.com.tw/citations?hl=zh-TW&view_op=list_works&gmla=AL3_zihMkuibR4LNjVHu_kgdxNASDeqOgpk6WdtWbMqh_9Li88mia0ilpTPOmU8ZVvhaFbhQc9MZxSy8NNWA34MybUc&user=HFImtzUAAAAJ), [Wo-Ting Liao](https://scholar.google.com.tw/citations?hl=zh-TW&user=pD-HgBYAAAAJ&view_op=list_works&gmla=AL3_zigkGgH0LwxSKUG4Q1g4Ivld056uxUH1cjieMkWLSUmQrLMVAHx_Rx4PYSY8dHLOEdwah0TPr6FwDQVhqZhrhIh1yD34Ig3klXaP5Aw), [Chih-Chung Hsu](https://cchsu.info/wordpress/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)
 
