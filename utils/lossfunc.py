@@ -507,14 +507,14 @@ class HyperspectralSWTLoss(nn.Module):
         return loss
 ############################### SAM Loss ###################################
 class SAMLoss(nn.Module):
-
-    def forward(self, x, y, factor=0.01):
+    factor = 1
+    def forward(self, x, y):
         num = torch.sum(torch.multiply(x+1e-5, y+1e-5), 1)
         den = torch.sqrt(torch.multiply(torch.sum(x**2+1e-5, 1), torch.sum(y**2+1e-5, 1)))
         sam = torch.clip(torch.divide(num, den), -1, 1)
         sam = torch.mean(torch.rad2deg(torch.arccos(sam)))
         
-        return sam*factor
+        return sam*self.factor
 
 ############################### L2 Loss (BandWiseMSE) ###################################
 class BandWiseMSE(nn.Module):
