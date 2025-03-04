@@ -155,7 +155,7 @@ def trainer(args, only_val=False):
                 loss2 = loss2.sum()
                 loss3 = loss3.sum()
                 loss4 = loss4.sum()
-                loss = loss1 + 0.1 * loss2 + 0.01 * loss3 + 0.01 * loss4
+                loss = loss1 + 0.01 * loss2 + 0.001 * loss3 + 0.01 * loss4
                 loss.backward()
                 # print(
                 #     f"{loss.item()}, L1: {loss1.item()}, SAM: {loss3.item()}, MSE: {loss2.item()}, SWT: {loss4.item()}"
