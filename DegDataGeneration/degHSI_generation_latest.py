@@ -136,14 +136,11 @@ def spatialBlurring(hsi, downsample=4, mode='bilinear'):
     return hsi_, 'Spatial Blurring'
     
 
-def addGaussianNoise(hsi, sigma=30.):
-    c, h, w = hsi.shape
-    # hsi_ = torch.zeros(c, h, w)
-    noise = torch.normal(0, std=sigma/255, size=(h, w))
-    # for i in range(c):
-    #     hsi_[i] = hsi[i] + torch.normal(0, std=sigma*torch.max(hsi[i])/255, size=(h, w))
-    hsi_ = hsi + noise
-    return hsi_, 'Noisy'
+def addGaussianNoise(hsi, snr=15):
+    xpower = torch.sum(hsi**2) / hsi.numel()
+    npower = torch.sqrt(xpower / snr)
+    hsi = hsi + torch.randn(hsi.shape) * npower
+    return hsi, 'Noisy'
 
 def bandMissing(hsi, mask_rate=0.4):
     c, h, w = hsi.shape
@@ -304,7 +301,7 @@ if __name__ == '__main__':
     ## only one level
     degLvDict = {
         'Cloudy': [0.25], # p
-        'Noisy': [30], # sigma
+        'Noisy': [15], # snr
         'BandMissing': [0.2], # mask ratio
         'SpatialBlurring': [2] # downsample 
     }
